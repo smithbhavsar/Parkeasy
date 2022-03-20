@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Spot">
+
+    <TextView
+        android:id="@+id/imageView2"
+        android:layout_width="107dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="R"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Center"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark_focused" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:text="Silveroak Parking"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Center"
+        android:layout_width="84dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="F"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark_focused" />
+
+    <TextView
+        android:id="@+id/imageView3"
+        android:layout_width="78dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="68dp"
+        android:gravity="center"
+        android:text="R"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark_focused" />
+
+    <TextView
+        android:id="@+id/imageView4"
+        android:layout_width="82dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="68dp"
+        android:gravity="center"
+        android:text="R"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark_focused" />
+
+
+</android.support.constraint.ConstraintLayout>
